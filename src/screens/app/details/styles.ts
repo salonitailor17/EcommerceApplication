@@ -37,6 +37,18 @@ const useStyles = () => {
       padding: modarateWidth(3),
       borderColor: colors.gray,
     },
+    btn: {
+      padding: modarateWidth(2),
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: modarateWidth(2),
+      borderWidth: modarateWidth(0.3),
+      marginTop: moderateHeight(2),
+    },
+    cross: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+    },
   });
 };
 

@@ -34,6 +34,9 @@ const useStyles = () => {
       justifyContent: 'center',
       paddingHorizontal: modarateWidth(2),
     },
+    multilineInput: {
+      height: moderateHeight(10),
+    },
   });
 };
 
