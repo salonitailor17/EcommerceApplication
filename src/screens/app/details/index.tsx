@@ -35,6 +35,7 @@ const Details = ({route}) => {
     if (desc === '') {
       setDescError('Please enter description.');
     } else {
+      setDesc('');
       setVisible(false);
     }
   };
